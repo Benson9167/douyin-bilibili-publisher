@@ -1,0 +1,39 @@
+{
+  "job_id": "ep01_demo_release",
+  "account": "demo_account_1",
+  "video_path": "path/to/output/final_video.mp4",
+  "log_dir": "path/to/output/publish_logs",
+  "douyin": {
+    "title": "新版本3大核心改动速览，开荒必看",
+    "desc": "一分钟看懂新版本核心改动与资源规划，少走弯路。",
+    "topics": [
+      "#游戏攻略",
+      "#版本前瞻",
+      "#新游公测",
+      "#新手指南",
+      "#实用技巧"
+    ],
+    "cover_4x3": "path/to/output/covers/cover_4x3.jpg",
+    "cover_3x4": "path/to/output/covers/cover_3x4.jpg",
+    "enable_game_handle": true,
+    "game_keyword": "目标游戏关键词",
+    "expected_game_title": "目标游戏完整名称",
+    "game_match_substring": "",
+    "reuse_existing_draft": false
+  },
+  "bilibili": {
+    "title": "【新版本速览】3大核心改动实测与开荒资源规划",
+    "desc": "一分钟看懂新版本核心改动与资源规划，少走弯路。",
+    "main_topic": "#游戏攻略",
+    "topic_fallback_keywords": ["新游公测"],
+    "tags": [
+      "版本前瞻",
+      "新游公测",
+      "新手指南",
+      "手游攻略"
+    ],
+    "cover_16x9": "path/to/output/covers/cover_16x9.jpg",
+    "cover_4x3": "path/to/output/covers/cover_4x3.jpg",
+    "declaration": "内容无需标注"
+  }
+}

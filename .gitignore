@@ -1,0 +1,30 @@
+# Sensitive local browser profiles & real account mappings
+profiles/
+config/accounts.json
+*.cmd
+!examples/*.example.cmd
+
+# Logs, media & runtime artifacts
+output/
+publish_logs/
+logs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+publish_result.json
+
+# Python & OS clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

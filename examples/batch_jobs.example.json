@@ -1,0 +1,10 @@
+{
+  "min_delay_sec": 210,
+  "max_delay_sec": 540,
+  "platforms": ["douyin", "bilibili"],
+  "jobs": [
+    "examples/publish_job.example.json",
+    "path/to/ep02/publish_job.json",
+    "path/to/ep03/publish_job.json"
+  ]
+}

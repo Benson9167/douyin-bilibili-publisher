@@ -1,0 +1,22 @@
+{
+  "browser_channel": "chrome",
+  "profiles_root": "profiles",
+  "accounts": {
+    "demo_account_1": {
+      "account_id": "account_01",
+      "douyin_nickname": "示例主号",
+      "bilibili_nickname": "示例B站号1",
+      "profile_dir": "profiles/demo_account_1",
+      "platforms": ["douyin", "bilibili"],
+      "notes": "复制本文件为 config/accounts.json 后填入真实账号与本地目录（已在 .gitignore 中屏蔽）。"
+    },
+    "demo_account_2": {
+      "account_id": "account_02",
+      "douyin_nickname": "示例小号",
+      "bilibili_nickname": "示例B站号2",
+      "profile_dir": "profiles/demo_account_2",
+      "platforms": ["douyin", "bilibili"],
+      "notes": "每个账号独占独立 Chrome user_data_dir，互不串号。"
+    }
+  }
+}
